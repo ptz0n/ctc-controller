@@ -12,7 +12,7 @@ Our heat pump does support an external control switch to be connected for activa
 
 ### Input: Electricity price
 
-We're using [Tibber](https://tibber.com/se/invite/fb7a2cc5) and they have a great API for getting the current prices.
+We're using [Tibber](https://tibber.com/se/invite/fb7a2cc5) and they have a great API to get the current prices.
 
 ```json
 {
@@ -29,7 +29,13 @@ I could have used a RaspberryPi (or similar) but wanted to try out the [Adafruit
 
 ## Installation
 
-After setting up the required hardware, run:
+First, make sure to setup the required hardware and environment vars:
+
+- TIBBER_TOKEN
+- INFLUXDB_HOST
+- INFLUXDB_USERNAME
+- INFLUXDB_PASSWORD
+- INFLUXDB_DATABASE
 
 ```bash
 pip3 install -r requirements.txt

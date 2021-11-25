@@ -26,8 +26,6 @@ query = """
 
 fragment PriceParts on Price {
   total
-  energy
-  tax
   startsAt
 }
 """
