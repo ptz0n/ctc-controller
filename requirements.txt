@@ -1,0 +1,4 @@
+hidapi==0.11.0.post2
+Adafruit-Blinka==6.15.0
+requests==2.26.0
+numpy==1.21.3
